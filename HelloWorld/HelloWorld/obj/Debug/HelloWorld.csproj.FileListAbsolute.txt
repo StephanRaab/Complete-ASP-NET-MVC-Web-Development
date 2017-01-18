@@ -1,0 +1,6 @@
+C:\Users\stephan.raab\Documents\GitHub\Complete-ASP-NET-MVC-Web-Development\HelloWorld\HelloWorld\bin\Debug\HelloWorld.exe.config
+C:\Users\stephan.raab\Documents\GitHub\Complete-ASP-NET-MVC-Web-Development\HelloWorld\HelloWorld\bin\Debug\HelloWorld.exe
+C:\Users\stephan.raab\Documents\GitHub\Complete-ASP-NET-MVC-Web-Development\HelloWorld\HelloWorld\bin\Debug\HelloWorld.pdb
+C:\Users\stephan.raab\Documents\GitHub\Complete-ASP-NET-MVC-Web-Development\HelloWorld\HelloWorld\obj\Debug\HelloWorld.csprojResolveAssemblyReference.cache
+C:\Users\stephan.raab\Documents\GitHub\Complete-ASP-NET-MVC-Web-Development\HelloWorld\HelloWorld\obj\Debug\HelloWorld.exe
+C:\Users\stephan.raab\Documents\GitHub\Complete-ASP-NET-MVC-Web-Development\HelloWorld\HelloWorld\obj\Debug\HelloWorld.pdb
