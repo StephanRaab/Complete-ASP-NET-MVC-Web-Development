@@ -10,9 +10,11 @@ namespace Playground
     {
         static void Main(string[] args)
         {
-            MyObject myObject = new MyObject();
-            MyObject myObject2 = new MyObject(10, 10);
+            MyClassLibrary.MyObject myObject = new MyClassLibrary.MyObject();
+            MySecondLibrary.MyObject myObject2 = new MySecondLibrary.MyObject(10, 10);
             myObject.Calculate(20, 52);
+
+            com.squareconnection.mylibrary.MyObject object3 = new com.squareconnection.mylibrary.MyObject();
 
             //myobject.number1 = 10;
             //myobject.number2 = 5;

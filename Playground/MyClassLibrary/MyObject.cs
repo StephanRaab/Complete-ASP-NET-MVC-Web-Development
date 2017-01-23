@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Playground
+namespace MyClassLibrary
 {
-    class MyObject
+    public class MyObject
     {
         //public string MyStringProperty { get; set; } //'get-set' allows us to assign or get a string value from this property
         //void VoidedMethod(string input, int value) { } //if you don't want your method to return anything, USE VOID
@@ -70,4 +70,5 @@ namespace Playground
             return _number1 + _number2;
         }
     }
+
 }
