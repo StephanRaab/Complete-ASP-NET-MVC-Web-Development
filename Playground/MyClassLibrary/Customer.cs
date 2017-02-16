@@ -10,7 +10,7 @@ namespace MyClassLibrary
     {
         public string Name { get; set; }
 
-        public void UpdateName(string newName)
+        public virtual void UpdateName(string newName)
         {
             Name = newName;
         }
@@ -18,11 +18,26 @@ namespace MyClassLibrary
 
     public class Customer : Person // customer inherits the stuff inside of Person, that way we don't have to include it everywhere else
     {
-        public int CustomerId { get; set; }
+        internal int CustomerId { get; set; }
+
+        public override void UpdateName(string newName)
+        {
+            base.UpdateName(newName);
+            Name = "some other value";
+        }
     }
 
     public class Supplier : Person
     {
         public int SupplierId { get; set; }
+    }
+
+    public class otherclass
+    {
+        public void dosomething()
+        {
+            Customer customer = new Customer();
+            //customer.CustomerId;
+        }
     }
 }
