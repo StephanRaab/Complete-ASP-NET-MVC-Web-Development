@@ -10,6 +10,13 @@ namespace Playground
     {
         static void Main(string[] args)
         {
+            var customer = new MyClassLibrary.Customer();
+
+            MyClassLibrary.ICalculate function = new MyClassLibrary.MultiplyCalculate();
+
+            var result = function.PerformCalc(10, 10);
+            Console.WriteLine(result);
+
             MyClassLibrary.MyObject myObject = new MyClassLibrary.MyObject();
             MySecondLibrary.MyObject myObject2 = new MySecondLibrary.MyObject(10, 10);
             myObject.Calculate(20, 52);
